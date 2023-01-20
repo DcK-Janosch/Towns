@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+ 
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login</title>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+  </head>
+
+ <!-- ---------------------------------------------------------------------------------------
+ -------------------------------------------------------------------------------------------- -->
+
+<!-- Header -->
+<!-- Header -->
+<!-- Header -->
+<body>
+  <header>
+    <div class="container">
+      <a href="index.html"><img src="images/Towns.png" alt="Logo"></a>
+      <nav>
+        <ul>
+          <li><a href="user.html">Profil</a></li>
+          <li class="login-button"><a href="login.html" onclick="logout()">Logout</a></li>
+          <li></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+<!-- Main -->
+<!-- Main -->
+<!-- Main -->
+
+
+<div class="container">
+  <div class="register-box">
+      <h1> Inserat Hinzufügen</h1>
+
+      <form id="register-form">
+
+
+          <div class="form-group">
+              <input type="text" id="beschreibung" placeholder="Beschreibung Hinzufügen">
+          </div>
+
+          <div class="form-group">
+              <input type="text" id="gegenleistung" placeholder="Gegenleistung Hinzufügen">
+          </div>
+
+          <div class="form-group">
+            <input type="text" id="adresse" placeholder="Adresse">
+        </div>
+  
+          <div class="container">
+            <div class="register-box">
+              
+              <button class="hidden" id="inserat-Hinzufügen" type="button" onclick="inserathinzufügen()">Hinzufügen</button>
+              <button class="hidden" id="button-aktualisieren" type="button" onclick="aktualisiereInserat()">Aktualisieren</button> 
+              <button class="hidden" id="inserat-loeschen" type="button" onclick="inseratLoeschen()">Löschen</button>
+            
+            </div>
+          </div>
+      </form>
+  </div>
+</div>
+
+
+      
+<div id="modal" class="modal">
+  <div id="nachricht"></div>
+</div>
+
+    <!------------------- Javascript Scripts LOL ---------------------------->
+    <!------------------  Javascript Scripts LOL ---------------------------->
+    <!------------------- Javascript Scripts LOL ---------------------------->
+
+  <script src= "js/inserat.js"></script>
+  <script src="js/logout.js"></script>
+  <script src="js/auth.js"></script>
+
+  
+</body>
+
+</html>
